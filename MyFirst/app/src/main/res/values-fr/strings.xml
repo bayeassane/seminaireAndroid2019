@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mon Super Projet</string>
+    <string name="button_send">Envoyer</string>
+    <string name="edit_message">Entrer un message</string>
+    <string name="please_enter_message">Veuillez entrer un message</string>
+</resources>
