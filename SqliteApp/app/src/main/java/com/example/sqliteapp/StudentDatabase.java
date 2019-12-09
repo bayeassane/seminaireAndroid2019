@@ -1,21 +1,21 @@
-package com.example.android.fragmentexample;
+package com.example.sqliteapp;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.support.annotation.Nullable;
 
-public class StudentDatabaseHelper extends SQLiteOpenHelper {
-    private static final String DATABASENAME = "uadb.db";
+public class StudentDatabase extends SQLiteOpenHelper {
+
+    private static final String DATABASENAME = "student.db";
     private static final int DATABASEVERSION = 1;
 
-    public StudentDatabaseHelper(Context context) {
+    public StudentDatabase(Context context) {
         super(context, DATABASENAME, null, DATABASEVERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE IF NOT EXISTS etudiant(id INT, name VARCHAR(50))");
+        db.execSQL("CREATE TABLE IF NOT EXISTS student(id INT, name VARCHAR(50))");
     }
 
     @Override

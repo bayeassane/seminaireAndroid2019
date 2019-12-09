@@ -26,13 +26,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        StudentDatabaseHelper studentDatabaseHelper = new StudentDatabaseHelper(this.getApplicationContext());
-        SQLiteDatabase db = studentDatabaseHelper.getWritableDatabase();
-        db.execSQL("INSERT INTO etudiant(id, name) VALUES(1, 'Assane')");
-        db.execSQL("INSERT INTO etudiant(id, name) VALUES(2, 'Fall')");
-        db.execSQL("INSERT INTO etudiant(id, name) VALUES(3, 'Baye Fall')");
-
-
-
     }
 }
