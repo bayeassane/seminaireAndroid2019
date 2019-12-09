@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Dec 04 13:25:55 GMT 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\assane\\Desktop\\Mes Projets\\Android\\FragmentExample1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
